@@ -1,0 +1,26 @@
+{
+    "name": "lidelin/phalapi-framework",
+    "description": "A light-weight framework focus on how to develop API faster and simple.",
+    "homepage": "https://github.com/lidelin/phalapi-framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lidelin",
+            "email": "494747693@qq.com"
+        }
+    ],
+    "require": {
+        "catfan/Medoo": "~1.2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhalApi\\": "src/"
+        },
+        "files": [
+            "src/Foundation/functions.php"
+        ]
+    }
+}
